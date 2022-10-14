@@ -1,11 +1,11 @@
-<img src=".assets/imgs/logo-Compass.png" min-width="300px" max-width="400px" width="400px" align="right" alt="Logo compass">
+<img src="./Projeto_Sprint_4(Keepalive)/assets/imgs/logo-Compass.png" min-width="300px" max-width="400px" width="400px" align="right" alt="Logo compass">
 
 <h1 align="left">🧭 Keepalive</h1>
 
 ---
 
 ![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Last Modified](https://img.shields.io/aur/last-modified/Projeto_Sprint_4(Keepalive)?style=for-the-badge))
+![Last Modified](https://img.shields.io/aur/last-modified/Projeto_Sprint_4(Keepalive/index.html)?style=for-the-badge)
 
 
 
