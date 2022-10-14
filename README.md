@@ -5,7 +5,7 @@
 ---
 <p align="center">
 <a>Working on<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></a>
-<a>Working on<img src="https://img.shields.io/aur/last-modified/Compass_Project-4"/></a>
+<a>Working on<img src="https://img.shields.io/aur/last-modified/:Compass_Project-4"/></a>
 </p>
 
 
