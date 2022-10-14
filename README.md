@@ -5,7 +5,7 @@
 ---
 
 ![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![GitHub last commit](https://img.shields.io/aur/last-modified/JefersonT4v4res/Compass_Project-4/Projeto_Sprint_4(Keepalive)?label=STATUS&message=LAST%20COMMIT&color=GREEN&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/aur/last-modified/JefersonT4v4res/Compass_Project-4/Projeto_Sprint_4(Keepalive))
 
 
 
