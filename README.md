@@ -3,10 +3,9 @@
 <h1 align="left">🧭 Keepalive</h1>
 
 ---
-<p align="center">
-<a><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></a>
-<a><img src="https://img.shields.io/aur/last-modified/Compass_Project-4"/></a>
-</p>
+
+![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Last Modified](https://img.shields.io/aur/last-modified/Compass_Project-4)
 
 
 
