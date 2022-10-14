@@ -5,7 +5,7 @@
 ---
 
 ![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Last Modified](https://img.shields.io/aur/last-modified/badges/shields/master?style=for-the-badge)
+![Last Modified](https://img.shields.io/aur/last-modified/badges/shields/master)
 
 
 
