@@ -1,0 +1,81 @@
+@import '../base';
+@import '../mixins';
+@import '../variables';
+
+#main-content {
+    width: 100vw;
+    height: 100vh;
+    .card-validation {
+        @include flexbox(column, center, space-around);
+        width: 56.25rem;
+        height: 95vh;
+        margin-left: 5rem;
+        .validation__phrase {
+            align-self: flex-start;
+            position: relative;
+            top: 2rem;
+            left: 16rem;
+            .principal-text {
+                @include styleText($Poppins, $ola, 500, $ice); 
+            }
+            .additional-text {
+                @include styleText($Poppins, $addicional-text, 500, $ice);
+                width: 24rem;
+            }
+        }
+        .validation__container {
+            @include flexbox(column, stretch, center);
+            .validation__container-title {
+                @include styleText($Poppins, $field-subtitle, 500, $ice);
+                margin: 0;
+            }
+            .validation__fields {
+                box-sizing: border-box;
+                background: $bluish-gray;
+                border: 1px solid $white;
+                border-radius: 50px;
+                height: 3.75rem;
+                width: 23.6875rem;
+                @include flexbox(row, stretch, center);
+                margin-top: 2.0625rem;
+                .field__input {
+                    width: 19rem;
+                    font-size: $addicional-text;
+                    &::placeholder {
+                        @include styleText($Poppins, $addicional-text, 100, $ice);
+                    }
+                }
+                .field__input-icon {
+                    position: relative;
+                    pointer-events: none;
+                    transition: all 0.3s ease;
+                }
+                .user {
+                    left: 4.2rem;
+                    top: 0.5rem;
+                    width: 1.8rem;
+                    height: 1.8rem;
+                }
+                .padlock {
+                    left: 4.5rem;
+                    top: 0.1rem;
+                    width: 1.6rem;
+                    height: 3rem;
+                }
+            }
+        }
+        .continue {
+            cursor: pointer;
+            position: relative;
+            bottom: 1rem;
+            @include styleText($Poppins, $strong-text, 700, $white);
+            width: 23.6875rem;
+            height: 4.1875rem;
+            background: $rising-sun;
+            border: 0.1875rem solid $strong-red;
+            border-radius: 50px;
+            box-shadow: inset 5px 5px 15px $shy-black;
+            filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import '../base';
+@import '../mixins';
+@import '../variables';
+
+#main-content {
+    .card-validation {
+        .validation__container {
+            .validation__fields {
+                border: 1px solid $golden-yellow;
+            }
+        }
+    }
+}    
+
+.validation__mensage {
+    width: 17rem;
+    margin: 1.8rem auto;
+    text-align: center;
+    @include styleText($Poppins, $addicional-text, bold, $golden-yellow); 
+}

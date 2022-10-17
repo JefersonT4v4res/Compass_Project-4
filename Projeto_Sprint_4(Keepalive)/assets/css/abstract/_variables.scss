@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap');
+
+//fontes
+$Poppins: 'Poppins', sans-serif;
+$Nunito: 'Nunito', sans-serif;
+
+//tamanho fontes
+$ola: 3.75rem;
+$field-subtitle: 1.875rem;
+$addicional-text: 1rem;
+$strong-text: 1.125rem;
+
+
+//cores
+$black: #000000;
+$white: #ffffff;
+$ice: #E0E0E0;
+$gray: #222222;
+
+$strong-red: #C12D18;
+$golden-yellow: #E9B425;
+$mustard-yellow: #E29933;
+$bluish-gray: #26292C;
+$shy-black: #00000026;
+
+//gradrients
+$rising-sun: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+$sunset: linear-gradient(180deg, #E29933 0%, #C13216 100%);
+$shades-gray: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+$cloudy-sky: linear-gradient(180deg, #222222 0%, #000000 100%);
+$bright-sunshine: linear-gradient(180deg, #E9B425 0%, #E29933 100%);
