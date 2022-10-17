@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Keepalive - Login | Projeto 4</title>
+    <script src="./assets/js/svg-inject.min.js"></script>
 </head>
 <body>
 
     <main id="main-content">
         <section class="card-validation">
-            <p><span>Olá,</span>Para continuar navegando de forma segura, efetue o login na rede.</p>
+            <div class="validation__phrase">
+                <p class="principal-text">Olá,</p>
+                <p class="additional-text">Para continuar navegando de forma segura, efetue o login na rede.</p>
+            </div>
             <div class="validation__container">
-                <h1>Login</h1>
+                <h1 class="validation__container-title">Login</h1>
                 <div class="validation__fields login">
-                    <input class="input-login" id="login" required="" type="text" aria-description="User login account">
-                    <label class="label-login" for="login">usuário</label>
-                    <img class="" src="" alt="shape user icon">
+                    <input class="field__input input-login" id="inpt_login" placeholder="Usuário" required="" type="text" aria-description="User login account">
+                    <img class="field__input-icon user" src="./assets/icons/icon-user.svg" alt="shape user icon" onload="SVGInject(this)">
                 </div>
                 <div class="validation__fields password">
-                    <input class="input-password" id="password" required="" type="password" aria-description="User password account">
-                    <label class="label-password" for="password">Senha</label>
-                    <img class="" src="" alt="shape padlock icon">
+                    <input class="field__input input-password" id="password" placeholder="Senha" required="" type="password" aria-description="User password account">
+                    <img class="field__input-icon padlock" src="./assets/icons/icon-password.svg" alt="shape padlock icon" onload="SVGInject(this)">
                 </div>
             </div>
 
