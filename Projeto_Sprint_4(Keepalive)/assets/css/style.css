@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
 html, body, p {
   margin: 0;
   padding: 0;
@@ -23,40 +25,26 @@ input:focus {
   outline: 0;
 }
 
+.generic__container {
+  display: flex;
+}
+
 .validation__fields :is(input:focus, input:valid) ~ svg {
   transform: translateX(-4.2rem) scale(1);
   padding: 3px;
 }
 
-@-webkit-keyframes loadingSpin {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loadingSpin {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-body {
+#main-content {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
   background-repeat: no-repeat;
   background-size: contain;
   color: #E0E0E0;
 }
-body #main-content {
-  background: url("../assets/imgs/logo-Compass.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
+#main-content .side__background {
+  position: absolute;
+  right: 0;
+  width: 42rem;
 }
 
 html, body, p {
@@ -74,31 +62,26 @@ input:focus {
   outline: 0;
 }
 
+.generic__container {
+  display: flex;
+}
+
 .validation__fields :is(input:focus, input:valid) ~ svg {
   transform: translateX(-4.2rem) scale(1);
   padding: 3px;
 }
 
-@keyframes loadingSpin {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-body {
+#main-content {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
   background-repeat: no-repeat;
   background-size: contain;
   color: #E0E0E0;
 }
-body #main-content {
-  background: url("../assets/imgs/logo-Compass.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
+#main-content .side__background {
+  position: absolute;
+  right: 0;
+  width: 42rem;
 }
 
 #main-content {
@@ -112,7 +95,7 @@ body #main-content {
   justify-content: space-around;
   width: 56.25rem;
   height: 95vh;
-  margin-left: 5rem;
+  margin-left: 0rem;
 }
 #main-content .card-validation .validation__phrase {
   align-self: flex-start;
@@ -230,31 +213,26 @@ input:focus {
   outline: 0;
 }
 
+.generic__container {
+  display: flex;
+}
+
 .validation__fields :is(input:focus, input:valid) ~ svg {
   transform: translateX(-4.2rem) scale(1);
   padding: 3px;
 }
 
-@keyframes loadingSpin {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-body {
+#main-content {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
   background-repeat: no-repeat;
   background-size: contain;
   color: #E0E0E0;
 }
-body #main-content {
-  background: url("../assets/imgs/logo-Compass.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
+#main-content .side__background {
+  position: absolute;
+  right: 0;
+  width: 42rem;
 }
 
 #main-content .card-validation .validation__container .validation__fields {
@@ -269,6 +247,101 @@ body #main-content {
   font-size: 1rem;
   font-weight: bold;
   color: #E9B425;
+}
+
+.header__hour-date-weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main__content-Home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 84vh;
+}
+#main__content-Home .content-Home__img-logo {
+  position: absolute;
+  left: 0;
+  width: 42rem;
+}
+#main__content-Home .our-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: normal;
+  margin-right: 3rem;
+}
+#main__content-Home .our-mission #text__ourMission {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.95rem;
+  font-weight: bold;
+  color: #C12D18;
+  margin-bottom: 1rem;
+}
+#main__content-Home .our-mission .principal-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #C12D18;
+}
+#main__content-Home .our-mission .principal-text__traduction {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #222222;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  height: 10.2vh;
+}
+.footer-nav .mensage {
+  width: 38rem;
+  border-right: 1px solid #ffffff;
+}
+.footer-nav .mensage .mensage__phase {
+  margin-right: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-nav .alert-refresh {
+  width: 5rem;
+  text-align: right;
+}
+.footer-nav .alert-refresh, .footer-nav .container__timer .seconds {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.675rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-nav .container__timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-nav .container__timer .timer {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-nav .btn__footer {
+  width: 8.125rem;
+  height: 4.8125rem;
+  border: none;
+  cursor: pointer;
 }
 
 #loading {

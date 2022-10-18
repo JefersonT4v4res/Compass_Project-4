@@ -9,7 +9,7 @@
         @include flexbox(column, center, space-around);
         width: 56.25rem;
         height: 95vh;
-        margin-left: 5rem;
+        margin-left: 0rem;
         .validation__phrase {
             align-self: flex-start;
             position: relative;

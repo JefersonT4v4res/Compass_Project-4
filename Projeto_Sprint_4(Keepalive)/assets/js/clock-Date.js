@@ -89,5 +89,5 @@ function currentDate() {
     
     const dmy = `${dayweek},  ${day} de ${month} de ${year}`;
     
-    document.querySelector(".header__date").innerHTML = dmy;
+    document.querySelector(".header__fullDate").innerHTML = dmy;
 }

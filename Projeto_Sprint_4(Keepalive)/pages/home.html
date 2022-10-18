@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Compass - Home</title>
     <script src="../assets/js/home.js"></script>
+    <script src="../assets/js/svg-inject.min.js"></script>
 </head>
-<body onload="currentHour(), currentDate(), countTimer(), isLoged()">
+<body onload="currentHour(), currentDate(), countTimer()">
 
-    <div class="header__container-Flex hour-date">
-        <span class="header__hour"></span>
-        <span class="header__date"></span>
-    </div>
+    <header class="header__hour-date-weather">
+        <img src="../assets/imgs/LogoCompasso font Preta.svg" alt="logo escrita compass.uol" class="logoCompass" onload="SVGInject(this)">
+        <div class="hour-FullDate">
+            <p class="header__hour"></p>
+            <p class="header__fullDate"></p>
+        </div>
+        <div class="weather"></div>
+    </header>
 
-    <div class="header__container-Flex hour-date">
-        <span class="temporizador"></span>
-    </div>
-
-    <div class="header__container-Flex hour-date">
-        <span class="previsao-tempo"></span>
-    </div>
-
-    <div class="content" style="display: none;">
-        <section>
-          <h2 id="place"></h2>
-          <span id="degrees"></span>
-          <br />
+    <main id="main__content-Home">
+        <img class="content-Home__img-logo" src="../imgs/bola-LogoCompasso" alt="" onload="SVGInject(this)">
+        <section class="side__section our-mission">
+            <p class="principal-text" id="text__ourMission">Our mission is</p><span class="principal-text__traduction"> Nossa missão é</span>
+            <p class="principal-text">to transnform the world</p><span class="principal-text__traduction"> transformar o mundo</span>
+            <p class="principal-text">building digital experiences</p><span class="principal-text__traduction"> construindo experiências digitais</span>
+            <p class="principal-text">that enable our client's growth</p><span class="principal-text__traduction"> que permitam o crescimento dos nossos clientes</span>
         </section>
-        <img src="" alt="Clima" />
-    </div>
+    </main>
+
+    <footer class="footer-nav">
+        <div class="mensage"> 
+            <p class="mensage__phase">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
+        </div>
+        <div class="generic__container">
+            <p class="alert-refresh">Application refresh in</p>
+            <div class="container__timer">
+                <p class="timer"></p>
+                <p class="seconds">seconds</p>
+            </div>
+        </div>
+        <div class="generic__container" id="btns_container">
+            <button class="btn__footer keepGoIn"><span>Continuar navegando</span></button>
+            <button class="btn__footer logout">Logout</button>
+        </div>
+    </footer>
 
     
-    <script src="../assets/js/weather.js"></script>
     <script src="../assets/js/clock-Date.js"></script>
     <script src="../assets/js/timer.js"></script>
 </body>

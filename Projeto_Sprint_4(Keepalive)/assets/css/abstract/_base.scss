@@ -15,34 +15,27 @@ input {
     }
 }
 
+.generic__container {
+   @include flexbox(row, center, normal);
+}
+
 .validation__fields :is(input:focus, input:valid)~svg {
     transform: translateX(-4.2rem) scale(1);
     padding: 3px;
 }
 
-@keyframes loadingSpin {
-	0% {
-		transform: rotate(0);
-	}
-
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-body {
+#main-content {
     height: 100vh;
     background: $shades-gray;
     background-repeat: no-repeat;
     background-size: contain;
     color: $ice;
-
-    #main-content {
-        background: url("../assets/imgs/logo-Compass.png");
-        background-position: right;
-        background-repeat: no-repeat;
-        background-size: contain;
+    .side__background {
+        position: absolute;
+        right: 0;
+        width: 42rem;
     }
 }
+
 
 

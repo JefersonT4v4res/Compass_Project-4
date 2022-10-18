@@ -1,0 +1,72 @@
+@import '../variables';
+@import '../mixins';
+
+.header__hour-date-weather {
+    @include flexbox(row, center, space-between);
+}
+
+#main__content-Home {
+    @include flexbox(row, center, flex-end);
+    width: 100vw;
+    height: 84vh;
+    .content-Home__img-logo {
+        position: absolute;
+        left: 0;
+        width: 42rem;
+    }
+    .our-mission {
+        @include flexbox(column, flex-end, normal);
+        margin-right: 3rem;
+        #text__ourMission {
+            @include styleText($Poppins, 1.95rem, bold, $strong-red);
+            margin-bottom: 1rem;
+        }
+        .principal-text {
+            @include styleText($Poppins, $our-mission, bold, $strong-red);
+        }
+        .principal-text__traduction {
+            @include styleText($Poppins, $traduction, 500, $gray);
+        }
+    }
+
+}
+
+.footer-nav {
+    @include flexbox(row, center, space-around);
+    background: $shades-gray;
+    height: 10.2vh;
+    .mensage {
+        width: 38rem;
+        border-right: 1px solid $white;
+        .mensage__phase {
+            margin-right: 1rem;
+            @include styleText($Poppins, .75rem, 400, $white);
+        }
+    }
+    .alert-refresh {
+        width: 5rem;
+        text-align: right;
+    }
+    .alert-refresh, .container__timer .seconds {
+        @include styleText($Poppins, 0.675rem, 400, $white);
+    }
+    .container__timer {
+       @include flexbox(column, center, center);
+       margin-left: 2rem;
+       .timer {
+        @include styleText($Poppins, 2rem, 700, $white);
+       }
+    }
+    .btn__footer {
+        width: 8.125rem;
+        height: 4.8125rem;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    #btns_container {
+        position: relative;
+        left: 5.3rem;
+    }
+    
+}
