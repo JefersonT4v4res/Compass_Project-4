@@ -313,11 +313,15 @@ input:focus {
   justify-content: flex-end;
   width: 100vw;
   height: calc(100vh - 15.1rem);
+  overflow: hidden;
 }
 #main__content-Home .content-Home__img-logo {
   position: absolute;
-  left: 0;
-  width: 42rem;
+  right: 68rem;
+  top: 10rem;
+  width: 35rem;
+  height: 37rem;
+  z-index: -1;
 }
 #main__content-Home .our-mission {
   display: flex;
