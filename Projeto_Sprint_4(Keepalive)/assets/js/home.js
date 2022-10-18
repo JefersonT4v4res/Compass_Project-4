@@ -6,4 +6,7 @@ function isLoged() {
     }
 }
 
-
+function logout() {
+    localStorage.removeItem('key');
+    window.location.replace = "http://127.0.0.1:5500/Projeto_Sprint_4(Keepalive)/index.html";
+}
