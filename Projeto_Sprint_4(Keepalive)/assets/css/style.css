@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:wght@100;300;600&display=swap");
 html, body, p {
   margin: 0;
   padding: 0;
@@ -27,6 +28,23 @@ input:focus {
   padding: 3px;
 }
 
+@-webkit-keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 body {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -61,6 +79,14 @@ input:focus {
   padding: 3px;
 }
 
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 body {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -209,6 +235,14 @@ input:focus {
   padding: 3px;
 }
 
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 body {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -235,4 +269,26 @@ body #main-content {
   font-size: 1rem;
   font-weight: bold;
   color: #E9B425;
+}
+
+#loading {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.644);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(2.4px);
+          backdrop-filter: blur(2.4px);
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 26;
+  align-items: center;
+  justify-content: center;
+}
+#loading .loading__icon {
+  width: 6rem;
+  filter: invert(100%);
+  -webkit-animation: loadingSpin 1.2s ease-in-out 0s infinite normal forwards;
+          animation: loadingSpin 1.2s ease-in-out 0s infinite normal forwards;
 }/*# sourceMappingURL=style.css.map */

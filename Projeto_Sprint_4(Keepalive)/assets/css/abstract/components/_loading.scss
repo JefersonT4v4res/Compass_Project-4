@@ -1,0 +1,23 @@
+@import '../variables';
+
+
+#loading {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.644);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 26;
+    align-items: center;
+    justify-content: center;
+    .loading__icon {
+        width: 6rem;
+        filter: invert(100%);
+        animation: loadingSpin 1.2s ease-in-out 0s infinite normal forwards;
+    }
+
+}

@@ -20,6 +20,16 @@ input {
     padding: 3px;
 }
 
+@keyframes loadingSpin {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 body {
     height: 100vh;
     background: $shades-gray;
