@@ -20,20 +20,22 @@
                 <h1 class="validation__container-title">Login</h1>
                 <div class="validation__fields login">
                     <input class="field__input input-login" id="inpt_login" placeholder="Usuário" required="" type="text" aria-description="User login account">
-                    <img class="field__input-icon user" src="../assets/icons/icon-user.svg" alt="shape user icon" onload="SVGInject(this)">
+                    <img class="field__input-icon user" src="./assets/icons/icon-user.svg" alt="shape user icon" onload="SVGInject(this)">
                 </div>
                 <div class="validation__fields password">
-                    <input class="field__input input-password" id="password" placeholder="Senha" required="" type="password" aria-description="User password account">
-                    <img class="field__input-icon padlock" src="../assets/icons/icon-password.svg" alt="shape padlock icon" onload="SVGInject(this)">
+                    <input class="field__input input-password" id="inpt-password" placeholder="Senha" required="" type="password" aria-description="User password account">
+                    <img class="field__input-icon padlock" src="./assets/icons/icon-password.svg" alt="shape padlock icon" onload="SVGInject(this)">
                 </div>
 
                 <p class="validation__mensage error-login">Ops, usuário ou senha inválidos. <span class="validation__mensage try-again">Tente novamente!</span></p>
             </div>
 
-            <button class="btn__style continue">Continue</button> 
+            <button class="btn__style continue" onclick="validateLogin()">Continue</button> 
 
         </section>
 
+        <div id="loading"><img src="../assets/icons/compass Arrow.png" alt="arrow compass" class="loading__icon"></div>
     </main>
+    <script src="../assets/js/login.js"></script>
 </body>
 </html>
