@@ -3,12 +3,24 @@
 
 .header__hour-date-weather {
     @include flexbox(row, center, space-between);
+    .hour-FullDate {
+        text-align: center;
+        .header__hour {
+            @include styleText($Poppins, 6rem, 700, $gray);
+        }
+        .header__fullDate {
+            @include styleText($Poppins, 0.8rem, 400, $gray);
+            position: relative;
+            bottom: 2rem;
+            right: 0.3rem;
+        }
+    }
 }
 
 #main__content-Home {
     @include flexbox(row, center, flex-end);
     width: 100vw;
-    height: 84vh;
+    height: calc(100vh - 15.1rem);
     .content-Home__img-logo {
         position: absolute;
         left: 0;
