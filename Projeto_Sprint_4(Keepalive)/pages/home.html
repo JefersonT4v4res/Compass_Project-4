@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compass - Home</title>
+    <script src="../assets/js/home.js"></script>
 </head>
-<body>
+<body onload="currentHour(), currentDate(), countTimer(), isLoged()">
+
+    <div class="header__container-Flex hour-date">
+        <span class="header__hour"></span>
+        <span class="header__date"></span>
+    </div>
+
+    <div class="header__container-Flex hour-date">
+        <span class="temporizador"></span>
+    </div>
+
+    <div class="header__container-Flex hour-date">
+        <span class="previsao-tempo"></span>
+    </div>
+
+    <div class="content" style="display: none;">
+        <section>
+          <h2 id="place"></h2>
+          <span id="degrees"></span>
+          <br />
+        </section>
+        <img src="" alt="Clima" />
+    </div>
+
     
+    <script src="../assets/js/weather.js"></script>
+    <script src="../assets/js/clock-Date.js"></script>
+    <script src="../assets/js/timer.js"></script>
 </body>
 </html>
