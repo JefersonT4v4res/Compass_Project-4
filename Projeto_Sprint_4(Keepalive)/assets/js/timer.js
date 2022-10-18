@@ -1,4 +1,4 @@
-const timer = 10;
+const timer = 600;
 let actualTime = timer;
 let flag = 0;
 
