@@ -262,7 +262,7 @@ input:focus {
   width: 42rem;
 }
 
-#main-content .card-validation .validation__container .validation__fields {
+#main-content .card-validation .validation__container .error {
   border: 1px solid #E9B425;
 }
 
