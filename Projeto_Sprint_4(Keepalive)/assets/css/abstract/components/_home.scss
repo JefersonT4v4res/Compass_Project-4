@@ -3,6 +3,11 @@
 
 .header__hour-date-weather {
     @include flexbox(row, center, space-between);
+    .logoCompassPreto {
+        position: relative;
+        bottom: 2.7rem;
+        left: 2rem;
+    }
     .hour-FullDate {
         text-align: center;
         .header__hour {

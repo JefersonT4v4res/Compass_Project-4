@@ -282,6 +282,11 @@ input:focus {
   align-items: center;
   justify-content: space-between;
 }
+.header__hour-date-weather .logoCompassPreto {
+  position: relative;
+  bottom: 2.7rem;
+  left: 2rem;
+}
 .header__hour-date-weather .hour-FullDate {
   text-align: center;
 }
