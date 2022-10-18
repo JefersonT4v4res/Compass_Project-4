@@ -1,8 +1,14 @@
 @import './variables';
+@import './mixins';
 
 html, body, p {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $tomate-red;
 }
 
 input {

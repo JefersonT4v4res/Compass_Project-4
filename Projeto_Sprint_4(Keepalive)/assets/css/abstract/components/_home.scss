@@ -36,7 +36,7 @@
     background: $shades-gray;
     height: 10.2vh;
     .mensage {
-        width: 38rem;
+        width: 37rem;
         border-right: 1px solid $white;
         .mensage__phase {
             margin-right: 1rem;
@@ -53,6 +53,7 @@
     .container__timer {
        @include flexbox(column, center, center);
        margin-left: 2rem;
+       width: 3.5rem;
        .timer {
         @include styleText($Poppins, 2rem, 700, $white);
        }
@@ -67,6 +68,14 @@
     #btns_container {
         position: relative;
         left: 5.3rem;
+        .keepGoIn {
+            @include styleText($Poppins, .75rem, 400, $tomate-red);
+        }
+        .logout {
+            background-color: transparent;
+            @include styleText($Poppins, .75rem, 700, $white);
+        }
     }
+    
     
 }
