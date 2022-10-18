@@ -45,6 +45,23 @@ input:focus {
   padding: 3px;
 }
 
+@-webkit-keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 #main-content {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -90,6 +107,14 @@ input:focus {
   padding: 3px;
 }
 
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 #main-content {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
@@ -249,6 +274,14 @@ input:focus {
   padding: 3px;
 }
 
+@keyframes loadingSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 #main-content {
   height: 100vh;
   background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
