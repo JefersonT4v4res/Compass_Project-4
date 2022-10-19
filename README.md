@@ -13,17 +13,18 @@
 
 ## ⭐ índice
 
-- [Sobre o desafio](#Keepalive)
+- [Sobre o desafio](#-keepalive)
 
-- [Índice](#índice)
+- [Índice](#-índice)
 
 - [Funcionalidades](#funcionalidades)
 
-- [À implementar](#funcionalidades-a-implementar)
+- [À implementar](#funcionalidades-à-implementar)
 
-- [Documentação de cores](#Cores)
+- [Screenshots](#screenshots)
 
-- [Screenshots](#Screenshots)
+- [Documentação de cores](#documentação-de-cores)
+
 
 - [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
