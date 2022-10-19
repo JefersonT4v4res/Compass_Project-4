@@ -25,17 +25,14 @@
 
 - [Documentação de cores](#documentação-de-cores)
 
+- [Skills aplicadas e desenvolvidas](#-skills-aplicadas-e-desenvolvidas)
 
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
+- [Ferramentas utilizadas](#-ferramentas-utilizadas)
 
-- [Desenvolvedores](#desenvolvedores)
+- [Autor](#autor)
 
-Sobre o desafio
-O que o app faz
-recursos para implementar
-Screenshots
-Cores
-Skills aplicadas
+
+
 Ferramentas utilizadas
 Autor
 
@@ -55,13 +52,19 @@ Autor
 
 ## Screenshots
 
+- ### Tela login
+
 <img src="./Projeto_Sprint_4(Keepalive)/assets/imgs/TelaInicial.jpg" alt="Tela de login. Ao lado esquerdo da tela temos campos para inserção de login e senha, e um texto instruindo ao usuário a logar. Ao lado direito da tela temos a imagem de um notebook semi aberto e acima da imagem do notebook temos o logo da Compass.uol">
 
 --- 
 
+- ### Tela erro login
+
 <img src="./Projeto_Sprint_4(Keepalive)/assets/imgs/TelaLogin_error.jpg" alt="Tela de login com detalhes em amarelo para alertar erro do login. Ao lado esquerdo da tela temos campos para inserção de login e senha com bordas em amarelo e abaixo dos campos um texto de erro de autenticação também em amarelo">
 
 ---
+
+- ### Tela Home
 
 <img src="./Projeto_Sprint_4(Keepalive)/assets/imgs/TelaHome.JPG" alt="Tela home. Fundo branco, acima temos um cabeçalho da página contendo a logo Compass.uol, a direita temos a exibição das horas, logo abaixo o dia da semana com data completa, e no canto superior direito temos o nome da cidade, estado e a temperatura em graus. No corpo da página temos o ícone bola que representa a Uol e mais a direita frases em inglês contendo a missão da empresa e abaixo a tradução em pt-br. No rodapé da página temos um texto informativo, um temporizador de tempo logado, um botão com um texto de 'continue navegando' e outro botão com o texto 'logout'">
 
@@ -78,19 +81,20 @@ Autor
 | Golden yellow     |  #E9B425  | ![#E9B425](https://via.placeholder.com/30x30/E9B425/ffeded.jpg?text=%20) |
 | Mustard yellow    |  #E29933  | ![#E29933](https://via.placeholder.com/30x30/E29933/ffeded.jpg?text=%20) |
 | Bluish gray       |  #26292C  | ![#26292C](https://via.placeholder.com/30x30/26292C/ffeded.jpg?text=%20) |
-| Shy black         |  #E9B425  | ![#00000026](https://via.placeholder.com/30x30/00000026/ffeded.jpg?text=%20) |
+| Shy black         |  #00000026  | ![#00000026](https://via.placeholder.com/30x30/00000026/ffeded.jpg?text=%20) |
 
 ---
 
-## 👨‍💻 Skills aplicadas/desenvolvidas:
+## 👨‍💻 Skills aplicadas e desenvolvidas
 
+<code>![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)</code>
 <code>![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)</code>
 <code>![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)</code>
 <code>![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)</code>
 <code>![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)</code>
 
 
-## 💼 Ferramentas Utilizadas:
+## 💼 Ferramentas utilizadas
 
 <code>![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)</code>
 <code>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</code>
