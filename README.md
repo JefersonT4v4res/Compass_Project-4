@@ -2,7 +2,7 @@
 
 <h1 align="left">🧭 Keepalive</h1>
 
----
+<img src="./Projeto_Sprint_4(Keepalive)/assets/imgs/TelaInicial.jpg" alt="Tela de login">
 
 ![Status](http://img.shields.io/static/v1?label=STATUS&message=WORKING%20ON&color=GREEN&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/JefersonT4v4res/Compass_Project-4?label=LAST%20COMMIT&message=LAST%20COMMIT&color=GREEN&style=for-the-badge)
