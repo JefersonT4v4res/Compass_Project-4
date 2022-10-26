@@ -32,10 +32,6 @@
 - [Autor](#autor)
 
 
-
-Ferramentas utilizadas
-Autor
-
 ## Funcionalidades
 
 - [x] Autenticação de usuário
